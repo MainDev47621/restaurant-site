@@ -1,0 +1,22 @@
+// HELPERS
+@import "1-helpers/animations";
+@import "1-helpers/functions";
+@import "1-helpers/mixins";
+@import "1-helpers/placeholders";
+@import "1-helpers/variables";
+
+
+//TOOLS
+
+
+//BASICS
+@import "3-basics/base";
+
+//LAYOUT
+@import "4-layout/navigation";
+
+//PAGES
+@import "6-pages/index";
+@import "6-pages/menu";
+@import "6-pages/about-us";
+@import "6-pages/contacts";

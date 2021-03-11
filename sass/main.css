@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 0 40px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header {
+  background: url(../images/meat1.webp);
+  width: 100%;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=main.css.map */
