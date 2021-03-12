@@ -5,14 +5,40 @@ nav {
     height: 90px;
     padding: 0 40px;
 
-    ul {
+    .nav-links {
         display: flex;
         list-style: none;
 
-        a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
+        header .nav-links li {
+            padding-left: 20px;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                transition: 0.2s;
+            }
+
+            &:hover {
+                color: lightgray;
+                transition: 0.2s;
+            }
+        }
+
+        .oc-icon {
+            color: white;
+            cursor: pointer;
+            font-size: 2rem;
+            margin: 10px;
+            z-index: 15;
+        }
+        
+        #open-icon {
+            display: none;
+        }
+        
+        #close-icon {
+            display: none;
         }
     }
 }
