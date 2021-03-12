@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+header {
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-index h3, nav .brand-name a {
+  text-transform: uppercase;
+}
+
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -11,20 +22,111 @@ nav {
   height: 90px;
   padding: 0 40px;
 }
-nav ul {
+nav .brand-name a {
+  color: #fff;
+  font-size: 32px;
+  text-decoration: none;
+}
+nav .nav-links {
   display: flex;
   list-style: none;
 }
-nav ul a {
+nav .nav-links li {
+  padding-left: 20px;
+}
+nav .nav-links li a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  transition: 0.2s;
+}
+nav .nav-links li:hover {
+  color: lightgray;
+  transition: 0.2s;
+}
+nav .oc-icon {
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 10px;
+  z-index: 15;
+}
+nav #open-icon {
+  display: none;
+}
+nav #close-icon {
+  display: none;
 }
 
+@media only screen and (min-width: 768px) {
+  nav .nav-links {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 768px) {
+  nav .nav-links {
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    font-size: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+  }
+  nav .nav-links li {
+    padding: 20px;
+  }
+  nav #open-icon {
+    display: block;
+  }
+  nav #close-icon {
+    display: none;
+  }
+}
 header {
   background: url(../images/meat1.webp);
+}
+
+.contact-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  min-height: 100vh;
+  height: 50vh;
+}
+
+.contact-index h3 {
+  font-size: 28px;
+}
+
+.contact-index p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.contact-index a {
+  border: 3px solid #000;
+  margin-top: 20px;
+}
+
+.contact-index a:hover {
+  background: #333333;
+  color: #fff;
+}
+
+.contact-index a {
+  color: #000;
+  padding: 10px 30px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */

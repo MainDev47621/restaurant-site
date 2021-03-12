@@ -11,7 +11,7 @@ header {
 
 .contact-index h3 {
     font-size: 28px;
-    text-transform: uppercase;
+    @extend %uppercase-text;
 }
 
 .contact-index p {
