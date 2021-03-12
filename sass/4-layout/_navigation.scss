@@ -26,11 +26,11 @@ nav {
                 text-decoration: none;
                 text-transform: uppercase;
                 transition: 0.2s;
-            }
 
-            &:hover {
-                color: lightgray;
-                transition: 0.2s;
+                &:hover {
+                    color: lightgray;
+                    transition: 0.2s;
+                }
             }
         }
     }

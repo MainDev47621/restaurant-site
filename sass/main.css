@@ -40,7 +40,7 @@ nav .nav-links li a {
   text-transform: uppercase;
   transition: 0.2s;
 }
-nav .nav-links li:hover {
+nav .nav-links li a:hover {
   color: lightgray;
   transition: 0.2s;
 }
