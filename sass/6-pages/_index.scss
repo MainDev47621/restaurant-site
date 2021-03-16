@@ -1,6 +1,24 @@
-header {
+.index-header {
     @extend %full-screen;
     background: url(../images/meat1.webp);
+    background-size: cover;
+
+    .index-header-items {
+        @include centered(column);
+        height: calc(100vh - 90px);
+
+        h2 {
+            @extend %uppercase-text;
+            color: #fff;
+            font-size: 64px;
+            margin-bottom: 10px;
+            text-shadow: 5px 5px 20px #000;
+        }
+
+        button {
+            border: none;
+        }
+    }
 }
 
 .contact-index {

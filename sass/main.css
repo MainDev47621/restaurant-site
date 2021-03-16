@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-header {
+.index-header {
   width: 100%;
   height: 100vh;
 }
 
-.contact-index h3, nav .brand-name a {
+.contact-index h3, .index-header .index-header-items h2, nav .brand-name a {
   text-transform: uppercase;
 }
 
@@ -13,6 +13,15 @@ header {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.standard-btn {
+  background: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 30px;
 }
 
 nav {
@@ -92,7 +101,43 @@ nav #close-icon {
   }
 }
 header {
+  background: url(../images/meat2.png);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+header .page-title {
+  color: #fff;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 40px #000;
+  text-transform: uppercase;
+}
+
+.index-header {
   background: url(../images/meat1.webp);
+  background-size: cover;
+}
+.index-header .index-header-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 90px);
+}
+.index-header .index-header-items h2 {
+  color: #fff;
+  font-size: 64px;
+  margin-bottom: 10px;
+  text-shadow: 5px 5px 20px #000;
+}
+.index-header .index-header-items button {
+  border: none;
 }
 
 .contact-index {
