@@ -265,5 +265,33 @@ footer .social-media .sm-link i {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }
+.contacts {
+  padding: 40px;
+}
+.contacts .contact-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contacts .contact-section .contact-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacts .contact-section .contact-item h3 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+  }
+  .contact-section .contact-item {
+    padding: 20px 0;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
