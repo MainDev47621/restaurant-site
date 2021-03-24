@@ -278,6 +278,7 @@ footer .social-media .sm-link i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 30%;
 }
 .contacts .contact-section .contact-item h3 {
   font-size: 2em;

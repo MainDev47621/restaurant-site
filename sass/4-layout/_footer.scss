@@ -1,4 +1,5 @@
 footer {
+    display: flex;
     @include centered;
     background: #ff359b;
     position: relative;

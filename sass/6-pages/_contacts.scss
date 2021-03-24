@@ -7,12 +7,14 @@
         align-items: center;
 
         .contact-item {
+            display: flex;
             @include centered(column);
+            width: 30%;
 
             h3 {
                 font-size: 2em;
                 margin-bottom: 15px;
-                text-transform: uppercase;
+                @extend %uppercase-text;
             }
         }
     }
