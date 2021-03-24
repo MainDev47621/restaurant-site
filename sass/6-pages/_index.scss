@@ -4,6 +4,7 @@
     background-size: cover;
 
     .index-header-items {
+        display: flex;
         @include centered(column);
         height: calc(100vh - 90px);
 

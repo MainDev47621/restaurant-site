@@ -10,12 +10,6 @@
             display: flex;
             @include centered(column);
             width: 30%;
-
-            h3 {
-                font-size: 2em;
-                margin-bottom: 15px;
-                @extend %uppercase-text;
-            }
         }
     }
 }
