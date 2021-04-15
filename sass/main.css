@@ -283,6 +283,9 @@ footer .social-media .sm-link i {
   .contact-section {
     flex-direction: column;
   }
+  .contact-section .contact-item {
+    padding: 20px 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
