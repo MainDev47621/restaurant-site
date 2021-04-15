@@ -264,7 +264,7 @@ footer .social-media .sm-link i {
   }
 }
 .contacts {
-  padding: 40px;
+  padding: 2.5rem;
 }
 .contacts .contact-section {
   display: flex;
@@ -282,9 +282,6 @@ footer .social-media .sm-link i {
 @media only screen and (max-width: 768px) {
   .contact-section {
     flex-direction: column;
-  }
-  .contact-section .contact-item {
-    padding: 20px 0;
   }
 }
 

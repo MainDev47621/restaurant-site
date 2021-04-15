@@ -1,5 +1,5 @@
 .contacts {
-    padding: 40px;
+    padding: 2.5rem;
 
     .contact-section {
         display: flex;
@@ -18,8 +18,8 @@
     .contact-section {
         flex-direction: column;
 
-        .contact-item {
-            padding: 20px 0;
-        }
+        // .contact-item {
+        //     padding: 20px 0;
+        // }
     }
 }
