@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-.index-header {
+.head-chef-sec, .index-header {
   width: 100%;
   height: 100vh;
-}
-
-.index-header .index-header-items h2, .header-line, nav .brand-name a {
-  text-transform: uppercase;
 }
 
 * {
@@ -36,6 +32,7 @@ nav .brand-name a {
   color: #fff;
   font-size: 32px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 nav .nav-links {
   display: flex;
@@ -222,6 +219,7 @@ footer .social-media .sm-link i {
 .header-line {
   font-size: 2em;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .index-header {
@@ -236,6 +234,7 @@ footer .social-media .sm-link i {
   height: calc(100vh - 90px);
 }
 .index-header .index-header-items h2 {
+  text-transform: uppercase;
   color: #fff;
   font-size: 72px;
   margin-bottom: 10px;
@@ -243,6 +242,28 @@ footer .social-media .sm-link i {
 }
 .index-header .index-header-items button {
   border: none;
+}
+
+.head-chef-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(#ffb347, #ffcc33);
+}
+.head-chef-sec .chef-img {
+  width: 40%;
+  margin: 2em;
+}
+.head-chef-sec .chef-img img {
+  width: 100%;
+}
+.head-chef-sec .chef-info {
+  margin: 2em;
+}
+.head-chef-sec .chef-info h5 {
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .menu {

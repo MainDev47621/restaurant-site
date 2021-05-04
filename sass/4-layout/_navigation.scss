@@ -11,7 +11,7 @@ nav {
             color: #fff;
             font-size: 32px;
             text-decoration: none;
-            @extend %uppercase-text;
+            text-transform: uppercase;
         }
     }
 

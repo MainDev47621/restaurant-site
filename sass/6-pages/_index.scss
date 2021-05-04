@@ -9,7 +9,7 @@
         height: calc(100vh - 90px);
 
         h2 {
-            @extend %uppercase-text;
+            text-transform: uppercase;
             color: #fff;
             font-size: 72px;
             margin-bottom: 10px;
@@ -20,4 +20,31 @@
             border: none;
         }
     }
+}
+
+.head-chef-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(#ffb347, #ffcc33);
+    // background: linear-gradient(#abbaab, #ffffff);
+    @extend %full-screen;
+
+    .chef-img {
+        width: 40%;
+        margin: 2em;
+
+        img {
+            width: 100%;
+        }
+    }
+    .chef-info {
+        margin: 2em;
+
+        h5 {
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+    }       
 }
