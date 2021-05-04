@@ -258,8 +258,9 @@ footer .social-media .sm-link i {
   background: linear-gradient(#ffb347, #ffcc33);
 }
 .head-chef-sec .chef-img {
-  width: 40%;
-  margin: 2em;
+  max-width: 290px;
+  width: 30%;
+  margin: 3em;
 }
 .head-chef-sec .chef-img img {
   width: 100%;
@@ -272,6 +273,15 @@ footer .social-media .sm-link i {
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 1163px) {
+  .head-chef-sec {
+    flex-direction: column;
+    height: auto;
+  }
+  .head-chef-sec .chef-img {
+    width: 278px;
+  }
+}
 .menu {
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 1fr));

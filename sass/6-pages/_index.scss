@@ -32,8 +32,9 @@
     @extend %full-screen;
 
     .chef-img {
-        width: 40%;
-        margin: 2em;
+        max-width: 290px;
+        width: 30%;
+        margin: 3em;
 
         img {
             width: 100%;
@@ -47,4 +48,16 @@
             text-transform: uppercase;
         }
     }       
+}
+
+
+@media only screen and (max-width: 1163px) {
+    .head-chef-sec {
+        flex-direction: column;
+        height: auto;
+
+        .chef-img {
+            width: 278px;
+        }
+    }
 }
