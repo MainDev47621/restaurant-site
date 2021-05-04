@@ -97,6 +97,12 @@ nav #close-icon {
     display: none;
   }
 }
+@media only screen and (min-width: 768px) {
+  nav #close-icon {
+    position: absolute;
+    visibility: hidden;
+  }
+}
 header {
   background: url(../images/meat2.png);
   background-size: cover;

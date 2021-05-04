@@ -92,3 +92,12 @@ nav {
         }
     }
 }
+
+@media only screen and (min-width: 768px) {
+    nav {
+        #close-icon {
+            position: absolute;
+            visibility: hidden;
+        }
+    }
+}
