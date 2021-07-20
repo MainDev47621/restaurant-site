@@ -71,3 +71,15 @@ footer {
         }
     }
 }
+
+@media only screen and (max-width: 566px) {
+    footer {
+        .social-media {
+            .sm-link {
+                width: 45px;
+                height: 45px;
+                margin: 80px 12px;
+            }
+        }
+    }
+}

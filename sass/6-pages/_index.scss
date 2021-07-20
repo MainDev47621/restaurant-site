@@ -27,7 +27,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(#ffb347, #ffcc33);
+    background: linear-gradient(#f3f0ec, #ffcc33);
     // background: linear-gradient(#abbaab, #ffffff);
     @extend %full-screen;
 
@@ -58,6 +58,16 @@
 
         .chef-img {
             width: 278px;
+        }
+    }
+}
+
+@media only screen and (max-width: 566px) {
+    .index-header {
+        .index-header-items {
+            h2 {
+                font-size: 60px;
+            }
         }
     }
 }
