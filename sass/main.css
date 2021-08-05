@@ -46,10 +46,16 @@ nav .nav-links li a {
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
 }
 nav .nav-links li a:hover {
   color: lightgray;
   transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
 }
 nav .oc-icon {
   color: white;
@@ -183,10 +189,16 @@ footer .social-media .sm-link {
   height: 50px;
   transform: translateY(0);
   transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
 }
 footer .social-media .sm-link:hover {
   transform: translateY(-10px);
   transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
 }
 footer .social-media .sm-link i {
   color: #fff;

@@ -26,11 +26,11 @@ nav {
                 color: #fff;
                 text-decoration: none;
                 text-transform: uppercase;
-                transition: 0.2s;
+                @include transition(0.2s);
 
                 &:hover {
                     color: lightgray;
-                    transition: 0.2s;
+                    @include transition(0.2s);
                 }
             }
         }
@@ -70,7 +70,6 @@ nav {
             font-size: 2em;
             @include centered(column);
             list-style: none;
-            // overflow: hidden;
             position: absolute;
             top: 0;
             left: 0;
