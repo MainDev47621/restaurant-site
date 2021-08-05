@@ -1,8 +1,8 @@
 footer {
+    background: $footer-bg;
+    position: relative;
     display: flex;
     @include centered;
-    background: #ff359b;
-    position: relative;
 
     .bg-square {
         position: absolute;
@@ -10,14 +10,14 @@ footer {
         height: 75%;
     }
 
-    .bg-square-1 {
-        background: #00d2ff;
+    .bg-square-one {
+        background: $bg-square-one-bg;
         width: 50%;
         left: 10%;
     }
 
-    .bg-square-2 {
-        background: #fffd87;
+    .bg-square-two {
+        background: $bg-square-two-bg;
         width: 25%;
         right: 10%;
     }
@@ -41,26 +41,26 @@ footer {
     }
 
     .social-media {
-        display: flex;
-        @include centered;
         list-style: none;
         z-index: 4;
+        display: flex;
+        @include centered;
 
         .sm-link {
             backdrop-filter: blur(2px);
             border: 1px solid rgba(255, 255, 255, 0.3);
             border-radius: 10%;
             box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
-            display: flex;
-            @include centered;
             margin: 80px 20px;
             width: 50px;
             height: 50px;
-            transform: translateY(0);
+            display: flex;
+            @include centered;
+            @include transform(translateY(0));
             @include transition(0.2s);
 
             &:hover {
-                transform: translateY(-10px);
+                @include transform(translateY(-10px));
                 @include transition(0.2s);
             }
             

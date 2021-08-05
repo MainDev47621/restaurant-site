@@ -124,29 +124,33 @@ header .page-title {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
   text-shadow: 5px 5px 40px #000;
   text-transform: uppercase;
 }
 
 footer {
+  background: #ff359b;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #ff359b;
-  position: relative;
 }
 footer .bg-square {
   position: absolute;
   bottom: 0;
   height: 75%;
 }
-footer .bg-square-1 {
+footer .bg-square-one {
   background: #00d2ff;
   width: 50%;
   left: 10%;
 }
-footer .bg-square-2 {
+footer .bg-square-two {
   background: #fffd87;
   width: 25%;
   right: 10%;
@@ -168,26 +172,30 @@ footer .line {
   z-index: 3;
 }
 footer .social-media {
+  list-style: none;
+  z-index: 4;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  list-style: none;
-  z-index: 4;
 }
 footer .social-media .sm-link {
   backdrop-filter: blur(2px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 10%;
   box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+  margin: 80px 20px;
+  width: 50px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 80px 20px;
-  width: 50px;
-  height: 50px;
   transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
   transition: 0.2s;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -195,6 +203,10 @@ footer .social-media .sm-link {
 }
 footer .social-media .sm-link:hover {
   transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
   transition: 0.2s;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -252,11 +264,11 @@ footer .social-media .sm-link i {
   background-size: cover;
 }
 .index-header .index-header-items {
+  height: calc(100vh - 90px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 90px);
 }
 .index-header .index-header-items h2 {
   text-transform: uppercase;

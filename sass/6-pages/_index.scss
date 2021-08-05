@@ -1,12 +1,12 @@
 .index-header {
     @extend %full-screen;
-    background: url(../images/meat1.webp);
+    background: $page-header-bg;
     background-size: cover;
 
     .index-header-items {
+        height: calc(100vh - 90px);
         display: flex;
         @include centered(column);
-        height: calc(100vh - 90px);
 
         h2 {
             text-transform: uppercase;
@@ -27,7 +27,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(#f3f0ec, #ffcc33);
+    background: $head-chef-bg;
     // background: linear-gradient(#abbaab, #ffffff);
     @extend %full-screen;
 

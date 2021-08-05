@@ -65,7 +65,7 @@ nav {
     nav {
         .nav-links {
             backdrop-filter: blur(5px);
-            background: rgba(0, 0, 0, 0.7);
+            background: $nav-link-menu-bg;
             display: none;
             font-size: 2em;
             @include centered(column);
